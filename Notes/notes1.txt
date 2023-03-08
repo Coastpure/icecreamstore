@@ -9,6 +9,8 @@ main file looks like this
 @include('layouts.footer')  // here we import the footer file
 
 
+
+
 make index.blade file
 
 we will eextend it's content to main.blade, it should look like this 
@@ -22,3 +24,11 @@ we will eextend it's content to main.blade, it should look like this
     
 @endsection
 
+in the route (web)
+ change the route to 
+ Route::get('/', function () {
+    return view('index');
+});
+
+
+vid 14 1:30:00
