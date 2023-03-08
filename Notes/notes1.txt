@@ -1,0 +1,24 @@
+make a new folder in views, name it layouts. make footer, header and main files 
+
+main file looks like this 
+
+@include('layouts.header') // here we import the header file
+
+@yield('content')           // this is the main content, it is written in index.blade
+
+@include('layouts.footer')  // here we import the footer file
+
+
+make index.blade file
+
+we will eextend it's content to main.blade, it should look like this 
+
+@extends('layouts.main')
+
+{{-- section name should match what you want to inject to (the name inside yield), in this case @yield('content') in main.blade --}}
+@section('content')
+
+{{-- here is when we write html that will be extended --}}
+    
+@endsection
+
