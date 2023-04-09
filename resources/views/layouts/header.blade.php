@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ice Cream For Everyone</title>
+    <title>Clothes For Everyone</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,6 +16,11 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="{{ asset ('css/fontawesome.min.css') }}">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="{{ asset ('css/slick.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset ('css/slick-theme.css') }}">
+    <!--
 
     
     
