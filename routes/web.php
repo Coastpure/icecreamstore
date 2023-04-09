@@ -18,6 +18,12 @@ Route::get('/', function () {
 });
 
 
-Route::get('/shop', function () {
+Route::get('/products', function () {
     return view('products');
 });
+
+Route::get('/single_product', function () {
+    return view('single_product');
+});
+
+
