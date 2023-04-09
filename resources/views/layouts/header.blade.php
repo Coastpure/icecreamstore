@@ -20,10 +20,12 @@
     <!-- Slick -->
     <link rel="stylesheet" type="text/css" href="{{ asset ('css/slick.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset ('css/slick-theme.css') }}">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
+    
     <!--
 
-    
-    
 {{-- TemplateMo 559 Zay Shop
 
 https://templatemo.com/tm-559-zay-shop
@@ -73,13 +75,13 @@ https://templatemo.com/tm-559-zay-shop
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="/about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>

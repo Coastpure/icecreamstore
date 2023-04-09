@@ -99,10 +99,12 @@
      <script src="{{ asset ('js/bootstrap.bundle.min.js') }}"></script>
      <script src="{{ asset ('js/templatemo.js') }}"></script>
      <script src="{{ asset ('js/custom.js') }}"></script>
-     <!-- End Script -->
 
 
-             <!-- Start Slider Script -->
+
+    
+    
+ <!-- Start Slider Script -->
              <script src="{{ asset ('js/slick.min.js') }}"></script>
              <script>
                  $('#carousel-related-product').slick({
@@ -123,16 +125,20 @@
                              settings: {
                                  slidesToShow: 2,
                                  slidesToScroll: 3
-                             }
-                         },
+                                }
+                            },
                          {
                              breakpoint: 480,
                              settings: {
                                  slidesToShow: 2,
                                  slidesToScroll: 3
-                             }
-                         }
+                                }
+                            }
                      ]
                  });
              </script>
              <!-- End Slider Script -->
+
+
+
+ <!-- End Script -->

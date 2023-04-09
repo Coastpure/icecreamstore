@@ -26,4 +26,12 @@ Route::get('/single_product', function () {
     return view('single_product');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 
